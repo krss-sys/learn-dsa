@@ -47,7 +47,7 @@ learn-dsa/
 ## 🛠️ Tech Stack & Environment
 
 * **Environment:** Windows Subsystem for Linux (WSL2) - Ubuntu
-* **Language Standard:** C++17 / C++20 Support
+* **Language Standard:** C++17 / C++20 / C++23 Support
 * **Compiler:** GCC (Linux Native)
 * **IDE/Editor:** VS Code (with WSL & C/C++ Extension Pack)
 * **Version Control:** Git & GitHub Desktop
