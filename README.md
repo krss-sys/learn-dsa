@@ -54,11 +54,13 @@ learn-dsa/
 
 ---
 
-## 📝 Dev Log
+## 📅 Dev Log
 
-### [2026-07-15]
-
-> Initialized `learn-dsa` repository structure.
+### 2026-07-16
+- Study: Big-O, Big-Ω, Big-Θ notation; Time/Space trade-off via Two Sum
+- Code: Implemented `twoSumBruteForce()` - O(n²) version
+- Status: Function done, main() pending
+- Next: Complete main(), add optimized O(n) version
 
 ---
 
