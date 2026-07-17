@@ -15,18 +15,18 @@ learn-dsa/
 ├── README.md
 ├── PROGRESS.md
 ├── 01_Systems_Thinking/
-│   ├── 1.1_Big_O/
+│   ├── part_01/
 │   │   ├── theory/
 │   │   └── homework/
-│   ├── 1.2_Master_Theorem/
+│   ├── part_02/
 │   │   ├── theory/
 │   │   └── homework/
-│   ├── 1.3_Cache_Performance/      (deferred — revisit before 6.6)
-│   └── 1.4_Recursion_CallStack/
+│   ├── part_03/      (deferred — revisit before 6.6)
+│   └── part_04/
 │       ├── theory/
 │       └── homework/
 ├── 02_Searching_Sorting/
-│   ├── 2.1_Linear_Binary_Search/
+│   ├── part_01/
 │   └── ...
 ├── 03_Advanced_Sorting/
 ├── 04_Linear_DS/
@@ -46,7 +46,25 @@ learn-dsa/
         └── mini_rocksdb.cpp
 ```
 
-> **Note:** every chapter follows the `X.Y_Section_Name/theory/` + `homework/` pattern above (omitted per-section here for brevity — see `PROGRESS.md` for the full checklist). `mini_projects/` only appears in chapters with a hands-on integration project (Chapters 4, 6, and 9).
+> **Note:** See `PROGRESS.md` for the full checklist. `mini_projects/` only appears in chapters with a hands-on integration project (Chapters 4, 6, and 9).
+
+### 🔎 Chapter Scope (clarification)
+
+Folder names are fixed for structural/design reasons, so here's what each chapter *actually* covers content-wise:
+
+| Folder | Actual Scope |
+|---|---|
+| `01_Systems_Thinking` | Complexity analysis (Big-O), Recursion |
+| `02_Searching_Sorting` | Search & Sort fundamentals |
+| `03_Advanced_Sorting` | Advanced sorting, Divide & Conquer |
+| `04_Linear_DS` | Linear data structures |
+| `05_Hash_Tables_Strings` | Hash Tables, String algorithms |
+| `06_Non_Linear_Trees` | Trees (incl. B-Tree, see dependency note below) |
+| `07_Non_Linear_Graphs` | Graphs |
+| `08_Advanced_Paradigms` | Advanced algorithmic paradigms |
+| `09_Distributed_Infra` | **Infrastructure-oriented DSA only** (e.g. storage/indexing structures). Distributed *systems design* topics (Quorum, Vector Clocks, Gossip, 2PC) are explicitly **out of scope** here — that's a separate track. |
+
+> ⚠️ **Dependency reminder:** `01/part_03` (Cache) is deferred and **must be revisited before `06.6` (B-Tree)** — B-Tree indexing concepts build on the cache material.
 
 ---
 
@@ -62,12 +80,12 @@ learn-dsa/
 
 ## 📅 Dev Log
 
-### 2026-07-16
-- Study: Big-O, Big-Ω, Big-Θ notation; Time/Space trade-off via Two Sum
-- Code: Implemented `twoSumBruteForce()` - O(n²) version
-- Status: Function done, main() pending
-- Next: Complete main(), add optimized O(n) version
+Format: `[Chapter/Part] — what was studied / coded / practiced`
+
+- **[01/part_01]**
+  - Study: O(1) and O(log n) definitions and examples
+  - Code: `layPhanTuDau()` (O(1)), `demChiaDoi()` (O(log n))
+  - Exercise: Completed 1 combined exercise
 
 ---
-
 *The deeper you go, the more powerful C++ becomes.* 🔥
