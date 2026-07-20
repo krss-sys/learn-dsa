@@ -83,11 +83,10 @@ Folder names are fixed for structural/design reasons, so here's what each chapte
 Format: `[Chapter/Part] — what was studied / coded / practiced`
 
 - **[01/part_01]**
-  - Study: O(n) and O(n log n) definitions and examples
-  - Code: timMax(), tinhTong() for O(n); moPhongNLogN() for O(n log n)
-  - Exercise: Combined exercise done
-  - Status: DONE 1.1.2 and 1.1.3
-  - Next: 1.1.4 O(n²)
+- Study: O(n²) definition, examples, dangers
+- Code: inCapSo(), kiemTraTrungLap(), soSanhON_ON2()
+- Status: DONE 1.1.4
+- Next: 1.1.5 O(2ⁿ)
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
