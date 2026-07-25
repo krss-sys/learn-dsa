@@ -82,11 +82,10 @@ Folder names are fixed for structural/design reasons, so here's what each chapte
 
 Format: `[Chapter/Part] — what was studied / coded / practiced`
 
-- **[01/part_01]**
-- Study: O(n²) definition, examples, dangers
-- Code: inCapSo(), kiemTraTrungLap(), soSanhON_ON2()
-- Status: DONE 1.1.4
-- Next: 1.1.5 O(2ⁿ)
+> 📌 **Learning Strategy Update (Practice-Driven Approach):**  
+> Temporarily shifting focus to hands-on problem solving on **AtCoder** to build speed and algorithmic intuition. 
+> 
+> Rather than following a linear theoretical curriculum, this repository will now be updated on a **demand-driven basis**. Whenever I encounter specific DSA topics on AtCoder (e.g., Graph Theory, Dynamic Programming, Data Structures), I will return to this repo to deeply study and document those specific concepts systematically.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
