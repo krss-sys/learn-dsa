@@ -24,9 +24,10 @@ Each chapter is broken down into smaller sections (matching my study roadmap), a
 
 ## 📅 Dev Log
 📌 **Learning Strategy Update (Practice-Driven Approach):**  
-
-- Implemented Two Pointers technique for string tokenization using delimiter `#`.
-- Handled edge cases: skipping specific token ("Hoc_sinh_C") and avoiding infinite loop by updating `i` before `continue`.
+- Studied String Parsing using Two Pointers technique to split strings by delimiter.
+- Applied substring extraction (substr) and type conversion (stoi) to parse integer values from text tokens.
+- Implemented token skipping logic using continue statement with proper pointer movement (i = j + 1).
+- Practiced incremental summation and result formatting.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
