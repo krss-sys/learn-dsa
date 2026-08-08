@@ -24,10 +24,9 @@ Each chapter is broken down into smaller sections (matching my study roadmap), a
 
 ## 📅 Dev Log
 📌 **Learning Strategy Update (Practice-Driven Approach):**  
-- Studied String Parsing using Two Pointers technique to split strings by delimiter.
-- Applied substring extraction (substr) and type conversion (stoi) to parse integer values from text tokens.
-- Implemented token skipping logic using continue statement with proper pointer movement (i = j + 1).
-- Practiced incremental summation and result formatting.
+- Practiced Length-Prefix Encoding parsing with multiple concatenated tokens.
+- Used stoi() to extract length, substr() to extract data by exact length.
+- Combined parsed tokens into a complete sentence.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
