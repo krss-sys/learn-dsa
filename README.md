@@ -24,9 +24,11 @@ Each chapter is broken down into smaller sections (matching my study roadmap), a
 
 ## 📅 Dev Log
 📌 **Learning Strategy Update (Practice-Driven Approach):**  
-- Practiced Length-Prefix Encoding parsing with multiple concatenated tokens.
-- Used stoi() to extract length, substr() to extract data by exact length.
-- Combined parsed tokens into a complete sentence.
+- Studied Bijection (1-1 mapping) in Length-Prefix Encoding.
+- Verified surjective: all strings can be encoded.
+- Verified injective: different inputs produce different encoded outputs.
+- Verified decode correctness: decoded output matches original input.
+- Confirmed no ambiguity in the encoding/decoding process.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
