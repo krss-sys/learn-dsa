@@ -24,11 +24,9 @@ Each chapter is broken down into smaller sections (matching my study roadmap), a
 
 ## 📅 Dev Log
 📌 **Learning Strategy Update (Practice-Driven Approach):**  
-- Studied Bijection (1-1 mapping) in Length-Prefix Encoding.
-- Verified surjective: all strings can be encoded.
-- Verified injective: different inputs produce different encoded outputs.
-- Verified decode correctness: decoded output matches original input.
-- Confirmed no ambiguity in the encoding/decoding process.
+- Implemented Prefix & Suffix Pattern for Product of Array Except Self.
+- Time Complexity: O(n), Space Complexity: O(n).
+- Later can be optimized to O(1) extra space.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
