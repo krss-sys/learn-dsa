@@ -24,9 +24,10 @@ Each chapter is broken down into smaller sections (matching my study roadmap), a
 
 ## 📅 Dev Log
 📌 **Learning Strategy Update (Practice-Driven Approach):**  
-- Implemented Prefix & Suffix Pattern for Product of Array Except Self.
-- Time Complexity: O(n), Space Complexity: O(n).
-- Later can be optimized to O(1) extra space.
+- Solved Product of Array Except Self using Prefix & Suffix pattern.
+- Used output array to store prefix, then multiplied with suffix on the fly.
+- Time: O(n), Space: O(1) (excluding output array).
+- No division operator used.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
