@@ -24,10 +24,9 @@ Each chapter is broken down into smaller sections (matching my study roadmap), a
 
 ## 📅 Dev Log
 📌 **Learning Strategy Update (Practice-Driven Approach):**  
-- Solved Product of Array Except Self using Prefix & Suffix pattern.
-- Used output array to store prefix, then multiplied with suffix on the fly.
-- Time: O(n), Space: O(1) (excluding output array).
-- No division operator used.
+- Implemented Contains Duplicate using Hash Set (unordered_set).
+- Learned to detect duplicates in O(n) time, O(n) space.
+- Alternative: sorting approach O(n log n) time, O(1) space.
 
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
