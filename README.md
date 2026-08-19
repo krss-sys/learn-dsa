@@ -24,9 +24,8 @@ Each chapter is broken down into smaller sections (matching my study roadmap), a
 
 ## 📅 Dev Log
 📌 **Learning Strategy Update (Practice-Driven Approach):**  
-- Implemented Contains Duplicate using Hash Set (unordered_set).
-- Learned to detect duplicates in O(n) time, O(n) space.
-- Alternative: sorting approach O(n log n) time, O(1) space.
-
+- Practiced 2D Array Iteration with matrix traversal.
+- Calculated sum per row and sum per column using nested loops.
+- Learned to access rows and columns in a 2D vector.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
