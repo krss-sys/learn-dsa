@@ -24,8 +24,10 @@ Each chapter is broken down into smaller sections (matching my study roadmap), a
 
 ## 📅 Dev Log
 📌 **Learning Strategy Update (Practice-Driven Approach):**  
-- Practiced 2D Array Iteration with matrix traversal.
-- Calculated sum per row and sum per column using nested loops.
-- Learned to access rows and columns in a 2D vector.
+- Studied Matrix Grid Mapping using integer division.
+- Learned to map (r, c) coordinates to box index: (r/3)*3 + (c/3).
+- Implemented box traversal using startRow = (box/3)*3 and startCol = (box%3)*3.
+- Compared two approaches: boxIndex scanning vs direct box traversal.
+- Direct box traversal is faster (9 iterations vs 81) for single box extraction.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
