@@ -24,10 +24,10 @@ Each chapter is broken down into smaller sections (matching my study roadmap), a
 
 ## 📅 Dev Log
 📌 **Learning Strategy Update (Practice-Driven Approach):**  
-- Studied Matrix Grid Mapping using integer division.
-- Learned to map (r, c) coordinates to box index: (r/3)*3 + (c/3).
-- Implemented box traversal using startRow = (box/3)*3 and startCol = (box%3)*3.
-- Compared two approaches: boxIndex scanning vs direct box traversal.
-- Direct box traversal is faster (9 iterations vs 81) for single box extraction.
+- Implemented Valid Sudoku using 2D bool arrays for marking.
+- Replaced unordered_set with bool arrays for O(1) lookup.
+- Mapped char digits to indices using num = ch - '1'.
+- 3 arrays: rows[9][9], cols[9][9], boxes[9][9].
+- Time: O(81), Space: O(1) (fixed 9x9 arrays).
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
