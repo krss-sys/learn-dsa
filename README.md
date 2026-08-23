@@ -24,10 +24,9 @@ Each chapter is broken down into smaller sections (matching my study roadmap), a
 
 ## 📅 Dev Log
 📌 **Learning Strategy Update (Practice-Driven Approach):**  
-- Implemented Valid Sudoku using 2D bool arrays for marking.
-- Replaced unordered_set with bool arrays for O(1) lookup.
-- Mapped char digits to indices using num = ch - '1'.
-- 3 arrays: rows[9][9], cols[9][9], boxes[9][9].
-- Time: O(81), Space: O(1) (fixed 9x9 arrays).
+- Practiced 2D bool array marking for duplicate detection.
+- Checked rows and columns using bool rows[9][9] and cols[9][9].
+- Converted values (1-9) to indices (0-8) using val - 1.
+- This approach is faster and more memory efficient than unordered_set.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
