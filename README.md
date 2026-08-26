@@ -24,9 +24,10 @@ Each chapter is broken down into smaller sections (matching my study roadmap), a
 
 ## 📅 Dev Log
 📌 **Learning Strategy Update (Practice-Driven Approach):**  
-- Practiced 2D bool array marking for duplicate detection.
-- Checked rows and columns using bool rows[9][9] and cols[9][9].
-- Converted values (1-9) to indices (0-8) using val - 1.
-- This approach is faster and more memory efficient than unordered_set.
+- Implemented Warehouse Management System using unordered_set and unordered_map.
+- Used std::jthread for concurrent processing.
+- Merged two warehouses, removed duplicates, counted frequencies.
+- Searched for specific IDs using find().
+- Applied OOP principles: class with methods.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
