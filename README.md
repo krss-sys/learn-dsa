@@ -24,10 +24,10 @@ Each chapter is broken down into smaller sections (matching my study roadmap), a
 
 ## 📅 Dev Log
 📌 **Learning Strategy Update (Practice-Driven Approach):**  
-- Implemented Warehouse Management System using unordered_set and unordered_map.
-- Used std::jthread for concurrent processing.
-- Merged two warehouses, removed duplicates, counted frequencies.
-- Searched for specific IDs using find().
-- Applied OOP principles: class with methods.
+- Implemented Longest Consecutive Sequence using Smart Brute Force.
+- Used unordered_set for O(1) lookup.
+- Check s.find(x-1) to only process sequence starts.
+- Amortized Analysis: total while iterations = O(n).
+- Time: O(n), Space: O(n).
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
