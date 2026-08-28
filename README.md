@@ -26,8 +26,7 @@ Each chapter is broken down into smaller sections (matching my study roadmap), a
 📌 **Learning Strategy Update (Practice-Driven Approach):**  
 - Implemented Longest Consecutive Sequence using Smart Brute Force.
 - Used unordered_set for O(1) lookup.
-- Check s.find(x-1) to only process sequence starts.
-- Amortized Analysis: total while iterations = O(n).
-- Time: O(n), Space: O(n).
+- Applied x-1 check to only process sequence starts.
+- Found and printed the longest sequence and its length.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
