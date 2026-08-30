@@ -24,9 +24,10 @@ Each chapter is broken down into smaller sections (matching my study roadmap), a
 
 ## 📅 Dev Log
 📌 **Learning Strategy Update (Practice-Driven Approach):**  
-- Implemented Longest Consecutive Sequence using Smart Brute Force.
-- Used unordered_set for O(1) lookup.
-- Applied x-1 check to only process sequence starts.
-- Found and printed the longest sequence and its length.
+- Learned cctype functions: isalnum() and tolower().
+- isalnum(): check if character is alphanumeric.
+- tolower(): convert uppercase to lowercase.
+- Applied to filter alphanumeric characters from a string.
+- Applied to compare two strings case-insensitively.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
