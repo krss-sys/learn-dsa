@@ -24,8 +24,8 @@ Each chapter is broken down into smaller sections (matching my study roadmap), a
 
 ## 📅 Dev Log
 📌 **Learning Strategy Update (Practice-Driven Approach):**  
-- Implemented Two Pointers Opposite Direction for palindrome checking.
-- Used isalnum() and tolower() to skip non-alphanumeric chars.
-- Case-insensitive palindrome validation.
+- Implemented Two Sum II using Two Pointers Opposite Direction.
+- Used sorted array property to move left/right pointers.
+- Space: O(1) as required.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
