@@ -24,8 +24,9 @@ Each chapter is broken down into smaller sections (matching my study roadmap), a
 
 ## 📅 Dev Log
 📌 **Learning Strategy Update (Practice-Driven Approach):**  
-- Implemented Two Sum II using Two Pointers Opposite Direction.
-- Used sorted array property to move left/right pointers.
-- Space: O(1) as required.
+- Implemented 3Sum algorithm using Sort + Two Pointers.
+- Learned to reduce 3Sum to 2Sum by fixing one element.
+- Understood why sorting enables pointer movement.
+- Used target = -nums[i] for the remaining two numbers.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
