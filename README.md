@@ -24,9 +24,9 @@ Each chapter is broken down into smaller sections (matching my study roadmap), a
 
 ## 📅 Dev Log
 📌 **Learning Strategy Update (Practice-Driven Approach):**  
-- Implemented 3Sum algorithm using Sort + Two Pointers.
-- Learned to reduce 3Sum to 2Sum by fixing one element.
-- Understood why sorting enables pointer movement.
-- Used target = -nums[i] for the remaining two numbers.
+- Studied Skip Duplicates technique for 3Sum.
+- Used adjacent comparison (nums[i] == nums[i-1]) to skip duplicates in outer loop.
+- Used while loops to skip duplicates for left and right pointers.
+- Eliminated need for std::set, saving O(n) space.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥

@@ -1,6 +1,6 @@
+#include <algorithm>
 #include <iostream>
 #include <vector>
-#include <algorithm>
 
 int main() {
     std::vector<int> nums = {-2, -1, 0, 1, 2, 3};
@@ -18,7 +18,8 @@ int main() {
         while (left < right) {
             int sum = nums[left] + nums[right];
             if (sum == target) {
-                std::cout << "TIM DUOC: " << nums[i] << ", " << nums[left] << ", " << nums[right] << "\n";
+                std::cout << "TIM DUOC: " << nums[i] << ", " << nums[left] << ", " << nums[right]
+                          << "\n";
                 left++;
                 right--;
             } else if (sum < target) {
