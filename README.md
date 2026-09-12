@@ -24,9 +24,8 @@ Each chapter is broken down into smaller sections (matching my study roadmap), a
 
 ## 📅 Dev Log
 📌 **Learning Strategy Update (Practice-Driven Approach):**  
-- Studied Skip Duplicates technique for 3Sum.
-- Used adjacent comparison (nums[i] == nums[i-1]) to skip duplicates in outer loop.
-- Used while loops to skip duplicates for left and right pointers.
-- Eliminated need for std::set, saving O(n) space.
+- Practiced 3Sum with full duplicate handling.
+- Applied skip duplicates in both outer and inner loops.
+- Verified no duplicate triplets in output.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
