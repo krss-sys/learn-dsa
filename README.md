@@ -24,8 +24,9 @@ Each chapter is broken down into smaller sections (matching my study roadmap), a
 
 ## 📅 Dev Log
 📌 **Learning Strategy Update (Practice-Driven Approach):**  
-- Practiced 3Sum with full duplicate handling.
-- Applied skip duplicates in both outer and inner loops.
-- Verified no duplicate triplets in output.
+- Practiced Container With Most Water using Two Pointers + Greedy.
+- Applied area formula: (right - left) * min(height[left], height[right]).
+- Used if statement to update max_area and track best columns.
+- Understood why moving the smaller pointer is safe (Elimination Logic).
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
