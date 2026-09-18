@@ -24,9 +24,10 @@ Each chapter is broken down into smaller sections (matching my study roadmap), a
 
 ## 📅 Dev Log
 📌 **Learning Strategy Update (Practice-Driven Approach):**  
-- Practiced Container With Most Water using Two Pointers + Greedy.
-- Applied area formula: (right - left) * min(height[left], height[right]).
-- Used if statement to update max_area and track best columns.
-- Understood why moving the smaller pointer is safe (Elimination Logic).
+- Studied Trapping Rain Water using Min-Max Bottleneck principle.
+- Learned why water at i = min(maxL, maxR) - height[i].
+- Used prefix arrays maxLeft and maxRight to find highest bars.
+- Understood why water depends on tallest bars on both sides, not just adjacent bars.
+- Time: O(n), Space: O(n) using auxiliary arrays.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
