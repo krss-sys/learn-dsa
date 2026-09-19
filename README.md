@@ -24,10 +24,9 @@ Each chapter is broken down into smaller sections (matching my study roadmap), a
 
 ## 📅 Dev Log
 📌 **Learning Strategy Update (Practice-Driven Approach):**  
-- Studied Trapping Rain Water using Min-Max Bottleneck principle.
-- Learned why water at i = min(maxL, maxR) - height[i].
-- Used prefix arrays maxLeft and maxRight to find highest bars.
-- Understood why water depends on tallest bars on both sides, not just adjacent bars.
-- Time: O(n), Space: O(n) using auxiliary arrays.
+- Optimized Trapping Rain Water from O(n) space to O(1) space.
+- Used Two Pointers with leftMax and rightMax variables.
+- Processed the smaller side at each step without needing prefix arrays.
+- Time: O(n), Space: O(1).
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
