@@ -24,9 +24,8 @@ Each chapter is broken down into smaller sections (matching my study roadmap), a
 
 ## 📅 Dev Log
 📌 **Learning Strategy Update (Practice-Driven Approach):**  
-- Optimized Trapping Rain Water from O(n) space to O(1) space.
-- Used Two Pointers with leftMax and rightMax variables.
-- Processed the smaller side at each step without needing prefix arrays.
+- Studied Best Time to Buy and Sell Stock using Dynamic Minimum Tracking.
+- Maintained min_price (lowest price seen so far) and max_profit in one pass.
 - Time: O(n), Space: O(1).
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
