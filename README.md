@@ -24,8 +24,9 @@ Each chapter is broken down into smaller sections (matching my study roadmap), a
 
 ## 📅 Dev Log
 📌 **Learning Strategy Update (Practice-Driven Approach):**  
-- Studied Best Time to Buy and Sell Stock using Dynamic Minimum Tracking.
-- Maintained min_price (lowest price seen so far) and max_profit in one pass.
-- Time: O(n), Space: O(1).
+- Studied Sliding Window technique for Longest Substring Without Repeating Characters.
+- Used unordered_set to track characters in current window.
+- Expanded right pointer, shrunk left when duplicate found.
+- Time: O(n), Space: O(k) where k is alphabet size.
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
