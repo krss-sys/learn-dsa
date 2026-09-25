@@ -24,9 +24,8 @@ Each chapter is broken down into smaller sections (matching my study roadmap), a
 
 ## 📅 Dev Log
 📌 **Learning Strategy Update (Practice-Driven Approach):**  
-- Studied Sliding Window technique for Longest Substring Without Repeating Characters.
-- Used unordered_set to track characters in current window.
-- Expanded right pointer, shrunk left when duplicate found.
-- Time: O(n), Space: O(k) where k is alphabet size.
+- Optimized Sliding Window using unordered_map to store last seen index.
+- Jumped left pointer directly to lastIndex[s[right]] + 1 instead of shrinking step by step.
+- Time: O(n), Space: O(k).
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
