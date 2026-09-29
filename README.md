@@ -24,8 +24,10 @@ Each chapter is broken down into smaller sections (matching my study roadmap), a
 
 ## 📅 Dev Log
 📌 **Learning Strategy Update (Practice-Driven Approach):**  
-- Optimized Sliding Window using unordered_map to store last seen index.
-- Jumped left pointer directly to lastIndex[s[right]] + 1 instead of shrinking step by step.
-- Time: O(n), Space: O(k).
+- Studied Longest Repeating Character Replacement using Sliding Window.
+- Used count[26] to track frequency of each character in window.
+- Maintained maxCount (highest frequency in window).
+- Valid window when (window_len - maxCount) <= k.
+- Time: O(n), Space: O(1).
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
