@@ -24,10 +24,9 @@ Each chapter is broken down into smaller sections (matching my study roadmap), a
 
 ## 📅 Dev Log
 📌 **Learning Strategy Update (Practice-Driven Approach):**  
-- Studied Longest Repeating Character Replacement using Sliding Window.
-- Used count[26] to track frequency of each character in window.
-- Maintained maxCount (highest frequency in window).
-- Valid window when (window_len - maxCount) <= k.
+- Studied Non-Decreasing Window Optimization for Longest Repeating Character Replacement.
+- Replaced while loop with if statement to shrink window by at most 1 step.
+- Window size only stays the same or increases, never decreases.
 - Time: O(n), Space: O(1).
 ---
 *The deeper you go, the more powerful C++ becomes.* 🔥
